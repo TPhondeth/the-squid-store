@@ -23,7 +23,7 @@ db.once('open', async () => {
             image: 'square-guard-costume.jpg',
             category: categories[0]._id,
             price: 79.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'GUARD Circle',
@@ -32,7 +32,7 @@ db.once('open', async () => {
             image: 'circle-guard-jumpsuit.jpg',
             category: categories[0]._id,
             price: 79.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'GUARD Triangle',
@@ -41,7 +41,7 @@ db.once('open', async () => {
             image: 'triangle-guard-jumpsuit.jpg',
             category: categories[0]._id,
             price: 79.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'GUARD All',
@@ -50,9 +50,8 @@ db.once('open', async () => {
             image: 'all-guard-jumpsuit.jpg',
             category: categories[0]._id,
             price: 99.95,
-            quantity: 500
+            quantity: 300
         },
-
         {
             name: 'PLAYER 067',
             description:
@@ -60,7 +59,7 @@ db.once('open', async () => {
             image: 'player067-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'PLAYER 212',
@@ -69,7 +68,7 @@ db.once('open', async () => {
             image: 'player212-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'PLAYER 218',
@@ -78,7 +77,7 @@ db.once('open', async () => {
             image: 'player218-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'PLAYER 456',
@@ -86,8 +85,8 @@ db.once('open', async () => {
                 'The Squid Game PLAYER 456.',
             image: 'player456-shirt.jpg',
             category: categories[1]._id,
-            price: 49.95,
-            quantity: 500
+            price: 34.95,
+            quantity: 300
         },
         {
             name: 'PLAYER 001',
@@ -95,17 +94,17 @@ db.once('open', async () => {
                 'The Squid Game PLAYER 001.',
             image: 'player001-shirt.jpg',
             category: categories[1]._id,
-            price: 49.95,
-            quantity: 500
+            price: 34.95,
+            quantity: 300
         },
         {
-            name: 'BOSS Costume',
+            name: 'Front Man Costume',
             description:
-                'The Squid Game BOSS Costume.',
-            image: 'boss-costume.jpg',
+                'The Squid Game Front Man Costume.',
+            image: 'front-man-costume.jpg',
             category: categories[2]._id,
             price: 99.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Deer Mask',
@@ -114,7 +113,7 @@ db.once('open', async () => {
             image: 'vip-deer.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Bear Mask',
@@ -123,7 +122,7 @@ db.once('open', async () => {
             image: 'vip-bear.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Buffalo Mask',
@@ -132,7 +131,7 @@ db.once('open', async () => {
             image: 'vip-buffalo.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Eagle Mask',
@@ -141,7 +140,7 @@ db.once('open', async () => {
             image: 'vip-eagle.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Tiger Mask',
@@ -150,7 +149,7 @@ db.once('open', async () => {
             image: 'vip-tiger.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Lion Mask',
@@ -159,7 +158,7 @@ db.once('open', async () => {
             image: 'vip-lion.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
         {
             name: 'VIP Owl Mask',
@@ -168,7 +167,7 @@ db.once('open', async () => {
             image: 'vip-owl.jpg',
             category: categories[3]._id,
             price: 149.95,
-            quantity: 500
+            quantity: 300
         },
     ]);
 
