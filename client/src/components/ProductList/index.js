@@ -17,7 +17,7 @@ function ProductList() {
   useEffect(() => {
     if(data) {
       dispatch({
-           type: UPDATE_PRODUCTS,
+          type: UPDATE_PRODUCTS,
           products: data.products
         });
         data.products.forEach((product) => {
@@ -27,8 +27,8 @@ function ProductList() {
       idbPromise('products', 'get').then((products) => {
         dispatch({
           type: UPDATE_PRODUCTS,
-         products: products
-       });
+          products: products
+        });
       });
     }
   }, [data, loading, dispatch]);
@@ -43,7 +43,7 @@ function ProductList() {
 
   return (
     <div className="my-2">
-      <h2>Our Products:</h2>
+      <h2>SQUID GAME Products:</h2>
       {state.products.length ? (
         <div className="flex-row">
             {filterProducts().map(product => (
