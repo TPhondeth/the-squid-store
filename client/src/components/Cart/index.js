@@ -6,6 +6,7 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from "../../utils/actions";
 import "./style.css";
 import { GiGiantSquid } from "react-icons/gi";
+import StripeCheckout from "react-stripe-checkout";
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
@@ -42,6 +43,10 @@ const Cart = () => {
     );
   }
 
+  function handleToken(token, addresses) {
+    console.log({ token, addresses })
+  }
+
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>[close]</div>
@@ -58,7 +63,10 @@ const Cart = () => {
             {
               Auth.loggedIn() ?
                 <button>
-                  Checkout
+                  <StripeCheckout 
+                    stripeKey="pk_test_51JwqIAJwkTHmyJpJFc2gNjEsrUltjUeSIoanSv7FwqkHZaTXoclo4ezPBQq2E9mImgpvXYxHTiJPPJtOnmyTNxYe00exK5Pt8u"
+                    token={handleToken}
+                  />
               </button>
                 :
                 <span>(log in to check out)</span>
