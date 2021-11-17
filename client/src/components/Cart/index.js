@@ -5,6 +5,7 @@ import Auth from "../../utils/auth";
 import { useStoreContext } from "../../utils/GlobalState";
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from "../../utils/actions";
 import "./style.css";
+import { GiGiantSquid } from "react-icons/gi";
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
@@ -35,9 +36,8 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span
-          role="img"
-          aria-label="trash">🛒</span>
+        
+          <GiGiantSquid />
       </div>
     );
   }
@@ -67,10 +67,7 @@ const Cart = () => {
         </div>
       ) : (
           <h3>
-            <span role="img" aria-label="shocked">
-              😱
-          </span>
-          You haven't added anything to your cart yet!
+          Your shopping cart is empty
           </h3>
         )}
     </div>
