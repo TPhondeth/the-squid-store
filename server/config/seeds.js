@@ -19,7 +19,7 @@ db.once('open', async () => {
         {
             name: 'GUARD Square',
             description:
-                'The Squid Game GUARD Costume.',
+                'The Squid Game GUARD Costume. Includes Jumpsuit and Square Mask.',
             image: 'square-guard-costume.jpg',
             category: categories[0]._id,
             price: 79.95,
@@ -28,7 +28,7 @@ db.once('open', async () => {
         {
             name: 'GUARD Circle',
             description:
-                'The Squid Game GUARD Costume.',
+                'The Squid Game GUARD Costume. Includes Jumpsuit and Circle Mask.',
             image: 'circle-guard-jumpsuit.jpg',
             category: categories[0]._id,
             price: 79.95,
@@ -37,7 +37,7 @@ db.once('open', async () => {
         {
             name: 'GUARD Triangle',
             description:
-                'The Squid Game GUARD Costume.',
+                'The Squid Game GUARD Costume. Includes Jumpsuit and Triangle Mask',
             image: 'triangle-guard-jumpsuit.jpg',
             category: categories[0]._id,
             price: 79.95,
@@ -46,7 +46,7 @@ db.once('open', async () => {
         {
             name: 'GUARD All',
             description:
-                'The Squid Game GUARD Costume All Masks.',
+                'The Squid Game GUARD Costume. Includes Jumpsuit and all 3 Masks.',
             image: 'all-guard-jumpsuit.jpg',
             category: categories[0]._id,
             price: 99.95,
@@ -55,7 +55,7 @@ db.once('open', async () => {
         {
             name: 'PLAYER 067',
             description:
-                'The Squid Game PLAYER 067 Shirt.',
+                'The Squid Game PLAYER 067 T-Shirt.',
             image: 'player067-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
@@ -64,7 +64,7 @@ db.once('open', async () => {
         {
             name: 'PLAYER 212',
             description:
-                'The Squid Game PLAYER 212 Shirt.',
+                'The Squid Game PLAYER 212 T-Shirt.',
             image: 'player212-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
@@ -73,7 +73,7 @@ db.once('open', async () => {
         {
             name: 'PLAYER 218',
             description:
-                'The Squid Game PLAYER 218.',
+                'The Squid Game PLAYER 218 T-Shirt.',
             image: 'player218-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
@@ -82,7 +82,7 @@ db.once('open', async () => {
         {
             name: 'PLAYER 456',
             description:
-                'The Squid Game PLAYER 456.',
+                'The Squid Game PLAYER 456 T-Shirt.',
             image: 'player456-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
@@ -91,7 +91,7 @@ db.once('open', async () => {
         {
             name: 'PLAYER 001',
             description:
-                'The Squid Game PLAYER 001.',
+                'The Squid Game PLAYER 001 T-Shirt.',
             image: 'player001-shirt.jpg',
             category: categories[1]._id,
             price: 34.95,
@@ -100,7 +100,7 @@ db.once('open', async () => {
         {
             name: 'Front Man Costume',
             description:
-                'The Squid Game Front Man Costume.',
+                'The Squid Game Front Man Costume. Includes BOSS Mask and Long Hooded Jacket.',
             image: 'front-man-costume.jpg',
             category: categories[2]._id,
             price: 99.95,
