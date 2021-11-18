@@ -5,6 +5,8 @@ import Auth from "../../utils/auth";
 import { useStoreContext } from "../../utils/GlobalState";
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from "../../utils/actions";
 import "./style.css";
+import { GiGiantSquid } from "react-icons/gi";
+import StripeCheckout from "react-stripe-checkout";
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
@@ -35,12 +37,15 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span
-          role="img"
-          aria-label="trash">🛒</span>
+        
+          <GiGiantSquid />
       </div>
     );
   }
+
+  function handleToken(token, addresses) {
+    console.log({ token, addresses })
+  };
 
   return (
     <div className="cart">
@@ -57,9 +62,14 @@ const Cart = () => {
 
             {
               Auth.loggedIn() ?
-                <button>
-                  Checkout
-              </button>
+                  <StripeCheckout 
+                    stripeKey="pk_test_51JwqIAJwkTHmyJpJFc2gNjEsrUltjUeSIoanSv7FwqkHZaTXoclo4ezPBQq2E9mImgpvXYxHTiJPPJtOnmyTNxYe00exK5Pt8u"
+                    token={handleToken}
+                    billingAddress
+                    shippingAddress
+                    
+                  />
+              
                 :
                 <span>(log in to check out)</span>
             }
@@ -67,10 +77,7 @@ const Cart = () => {
         </div>
       ) : (
           <h3>
-            <span role="img" aria-label="shocked">
-              😱
-          </span>
-          You haven't added anything to your cart yet!
+          No products in the cart
           </h3>
         )}
     </div>

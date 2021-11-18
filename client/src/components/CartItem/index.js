@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStoreContext } from "../../utils/GlobalState";
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
+import { IoTrashOutline } from "react-icons/io5";
 
 const CartItem = ({ item }) => {
 
@@ -52,7 +53,7 @@ const CartItem = ({ item }) => {
             aria-label="trash"
             onClick={() => removeFromCart(item)}
           >
-            🗑️
+            <IoTrashOutline />
           </span>
         </div>
       </div>
