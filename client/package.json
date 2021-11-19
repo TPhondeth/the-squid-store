@@ -5,6 +5,7 @@
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "@apollo/client": "^3.3.7",
+    "@stripe/stripe-js": "^1.21.1",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -15,7 +16,6 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "4.0.3",
-    "react-stripe-checkout": "^2.6.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
