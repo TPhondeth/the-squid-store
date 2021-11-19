@@ -5,9 +5,9 @@ db.once('open', async () => {
     await Category.deleteMany();
 
     const categories = await Category.insertMany([
-        { name: 'Guards' },
-        { name: 'Players' },
-        { name: 'Front Man' },
+        { name: 'GUARDS' },
+        { name: 'PLAYERS' },
+        { name: 'FRONT MAN' },
         { name: 'VIP'}
     ]);
 
@@ -17,91 +17,91 @@ db.once('open', async () => {
 
     const products = await Product.insertMany([
         {
-            name: 'GUARD Square',
+            name: 'SQUID GAME Square Guard',
             description:
-                'The Squid Game GUARD Costume. Includes Jumpsuit and Square Mask.',
-            image: 'square-guard-costume.jpg',
+                'The Square Guard Costume. Includes Jumpsuit, Mask and Accessories.',
+            image: 'square.jpg',
             category: categories[0]._id,
             price: 79.95,
             quantity: 300
         },
         {
-            name: 'GUARD Circle',
+            name: 'SQUID GAME Circle Guard',
             description:
-                'The Squid Game GUARD Costume. Includes Jumpsuit and Circle Mask.',
-            image: 'circle-guard-jumpsuit.jpg',
+                'The Circle Guard Costume. Includes Jumpsuit, Mask and Accessories.',
+            image: 'circle.jpg',
             category: categories[0]._id,
             price: 79.95,
             quantity: 300
         },
         {
-            name: 'GUARD Triangle',
+            name: 'SQUID GAME Triangle Guard',
             description:
-                'The Squid Game GUARD Costume. Includes Jumpsuit and Triangle Mask',
-            image: 'triangle-guard-jumpsuit.jpg',
+                'The Triangle Guard Costume. Includes Jumpsuit, Mask and Accessories.',
+            image: 'triangle.jpg',
             category: categories[0]._id,
             price: 79.95,
             quantity: 300
         },
         {
-            name: 'GUARD All',
+            name: 'SQUID GAME Guard Masks',
             description:
-                'The Squid Game GUARD Costume. Includes Jumpsuit and all 3 Masks.',
-            image: 'all-guard-jumpsuit.jpg',
+                'Includes all 3 Guard Masks.',
+            image: 'masks.jpg',
             category: categories[0]._id,
             price: 99.95,
             quantity: 300
         },
         {
-            name: 'PLAYER 067',
+            name: 'Player 067 Costume',
             description:
-                'The Squid Game PLAYER 067 T-Shirt.',
-            image: 'player067-shirt.jpg',
+                'The Squid Game Player 067 Costume. Includes Tracksuit and T-shirt.',
+            image: 'player067.jpg',
             category: categories[1]._id,
-            price: 34.95,
+            price: 54.95,
             quantity: 300
         },
         {
-            name: 'PLAYER 212',
+            name: 'Player 240 Costume',
             description:
-                'The Squid Game PLAYER 212 T-Shirt.',
-            image: 'player212-shirt.jpg',
+                'The Squid Game Player 240 Costume. Includes Tracksuit and T-shirt.',
+            image: 'player240.jpg',
             category: categories[1]._id,
-            price: 34.95,
+            price: 54.95,
             quantity: 300
         },
         {
-            name: 'PLAYER 218',
+            name: 'Player 218 Costume',
             description:
-                'The Squid Game PLAYER 218 T-Shirt.',
-            image: 'player218-shirt.jpg',
+                'The Squid Game Player 218 Costume. Includes Tracksuit and T-shirt.',
+            image: 'player218.jpg',
             category: categories[1]._id,
-            price: 34.95,
+            price: 54.95,
             quantity: 300
         },
         {
-            name: 'PLAYER 456',
+            name: 'Player 456 Costume',
             description:
-                'The Squid Game PLAYER 456 T-Shirt.',
-            image: 'player456-shirt.jpg',
+                'The Squid Game Player 456 Costume. Includes Tracksuit and T-shirt.',
+            image: 'player456.jpg',
             category: categories[1]._id,
-            price: 34.95,
+            price: 54.95,
             quantity: 300
         },
         {
-            name: 'PLAYER 001',
+            name: 'Player 001 Costume',
             description:
-                'The Squid Game PLAYER 001 T-Shirt.',
-            image: 'player001-shirt.jpg',
+                'The Squid Game Player 001 Costume. Includes Tracksuit and T-shirt.',
+            image: 'player001.jpg',
             category: categories[1]._id,
-            price: 34.95,
+            price: 54.95,
             quantity: 300
         },
         {
             name: 'Front Man Costume',
             description:
                 'The Squid Game Front Man Costume. Includes BOSS Mask and Long Hooded Jacket.',
-            image: 'front-man-costume.jpg',
+            image: 'boss.jpg',
             category: categories[2]._id,
             price: 99.95,
             quantity: 300
@@ -110,7 +110,7 @@ db.once('open', async () => {
             name: 'VIP Deer Mask',
             description:
                 'The Squid Game VIP Deer Mask.',
-            image: 'vip-deer.jpg',
+            image: 'deer.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
@@ -119,7 +119,7 @@ db.once('open', async () => {
             name: 'VIP Bear Mask',
             description:
                 'The Squid Game VIP Bear Mask.',
-            image: 'vip-bear.jpg',
+            image: 'bear.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
@@ -128,7 +128,7 @@ db.once('open', async () => {
             name: 'VIP Buffalo Mask',
             description:
                 'The Squid Game VIP Buffalo Mask.',
-            image: 'vip-buffalo.jpg',
+            image: 'buffalo.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
@@ -137,7 +137,7 @@ db.once('open', async () => {
             name: 'VIP Eagle Mask',
             description:
                 'The Squid Game VIP Eagle Mask.',
-            image: 'vip-eagle.jpg',
+            image: 'eagle.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
@@ -146,7 +146,7 @@ db.once('open', async () => {
             name: 'VIP Tiger Mask',
             description:
                 'The Squid Game VIP Tiger Mask.',
-            image: 'vip-tiger.jpg',
+            image: 'tiger.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
@@ -155,7 +155,7 @@ db.once('open', async () => {
             name: 'VIP Lion Mask',
             description:
                 'The Squid Game VIP Lion Mask.',
-            image: 'vip-lion.jpg',
+            image: 'lion.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
@@ -164,7 +164,7 @@ db.once('open', async () => {
             name: 'VIP Owl Mask',
             description:
                 'The Squid Game VIP Owl Mask.',
-            image: 'vip-owl.jpg',
+            image: 'owl.jpg',
             category: categories[3]._id,
             price: 149.95,
             quantity: 300
