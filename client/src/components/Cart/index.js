@@ -10,8 +10,7 @@ import { QUERY_CHECKOUT } from '../../utils/queries';
 import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/client';
 
-// const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
-const stripePromise = loadStripe('pk_test_51JwqIAJwkTHmyJpJFc2gNjEsrUltjUeSIoanSv7FwqkHZaTXoclo4ezPBQq2E9mImgpvXYxHTiJPPJtOnmyTNxYe00exK5Pt8u');
+const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
