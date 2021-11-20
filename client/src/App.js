@@ -45,9 +45,10 @@ function App() {
         <div>
           <StoreProvider>
             <Nav />
-            <Hero />
+            {/* <Hero /> */}
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" component={Hero} />
+              {/* <Route exact path="/" component={Home} /> */}
 
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
