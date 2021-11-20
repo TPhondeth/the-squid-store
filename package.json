@@ -16,11 +16,6 @@
     "concurrently": "^6.4.0"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "bcrypt": "^5.0.1",
-    "mongoose": "^6.0.13"
-=======
     "dotenv": "^10.0.0"
->>>>>>> 6a0723674c5af3fa453c530d4b93e4b2d8bb5539
   }
 }
