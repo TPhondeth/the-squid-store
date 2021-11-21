@@ -10,7 +10,7 @@ const index = () => {
   return (
     <>
       <div>
-        <img className="hero-image" src={hero} alt="" />
+        {/* <img className="hero-image" src={hero} alt="" /> */}
       </div>
     </>
   );

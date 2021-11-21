@@ -31,7 +31,7 @@ function Success() {
 
     return (
         <div>
-        <Jumbotron>
+        {/* <Jumbotron> */}
             <h1>Success!</h1>
             <h2>
                 Thank you for your order! The details will be sent to your email!
@@ -39,7 +39,7 @@ function Success() {
             <h2>
                 You are now being redirected to the home page!
             </h2>
-        </Jumbotron>
+        {/* </Jumbotron> */}
         </div>
     );
 };
