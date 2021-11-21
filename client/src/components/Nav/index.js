@@ -26,10 +26,14 @@ function Nav() {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav">
             <li className=" nav-item active nav-item">
-              <Link to="/signup">Signup</Link>
+              <Link className="signup" to="/signup">
+                Signup
+              </Link>
             </li>
             <li className="nav-item nav-item active">
-              <Link to="/login">Login</Link>
+              <Link className="signup" to="/login">
+                Login
+              </Link>
             </li>
           </ul>
         </div>

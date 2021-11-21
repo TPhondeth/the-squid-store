@@ -18,7 +18,7 @@ import Success from "./pages/Success";
 import Nav from "./components/Nav";
 import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
-
+import Footer from "./components/Footer";
 const httpLink = createHttpLink({
   uri: "/graphql",
 });
@@ -45,12 +45,12 @@ function App() {
         <div>
           <StoreProvider>
             <Nav />
-            <Hero />
+            {/* <Hero /> */}
             <Switch>
               {/* <Route exact path="/" component={Hero} /> */}
 
               <Route exact path="/" component={Home} />
-              <Route exact path="/" component={Hero} />
+              {/* <Route exact path="/" component={Hero} /> */}
 
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
@@ -60,6 +60,7 @@ function App() {
               <Route component={NoMatch} />
             </Switch>
           </StoreProvider>
+          <Footer />
         </div>
       </Router>
     </ApolloProvider>

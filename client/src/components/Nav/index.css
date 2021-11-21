@@ -18,3 +18,9 @@
   list-style: none;
   text-decoration: none;
 }
+.signup {
+  list-style: none;
+  color: #eaeaea;
+  letter-spacing: 2px;
+  font-size: 30px;
+}

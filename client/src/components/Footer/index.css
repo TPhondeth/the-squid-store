@@ -1,0 +1,18 @@
+.footer {
+  background: #343a40;
+  color: white;
+  padding: 3rem;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-yellow);
+  cursor: pointer;
+}
+.footer p {
+  margin-bottom: 0;
+}
