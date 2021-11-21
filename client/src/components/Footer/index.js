@@ -11,6 +11,7 @@ import {
   WhatsappShareButton,
   WhatsappIcon,
 } from "react-share";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
@@ -26,24 +27,31 @@ const index = () => {
               <p>storesquid866@gmail.com</p>
             </div>
           </div>
-          <div className="col-lg-3.col-md-2.col-sm-6">
+          <div className="col-lg-3.col-md-2.col-sm-6 ftr">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
-                <br />
-                <a className="footer-nav">About Me</a>
+                <Link to="/">
+                  <a className="footer-nav">Home</a>
+                  <br />
+                </Link>
+                <Link to="/signup">
+                  <a className="footer-nav">Sign up</a>
+                </Link>
               </div>
+
               <div className="col">
-                <a className="footer-nav">Portfolio</a>
+                <Link to="/login">
+                  <a className="footer-nav">Login</a>
+                </Link>
                 <br />
-                <a className="footer-nav">Contact Me</a>
+                <a className="footer-nav">Contact</a>
               </div>
             </div>
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                // url={"https://www.facebook.com/"}
+                url={"https://www.facebook.com/profile.php?id=100075389520028"}
                 quote={"FullStack Developer"}
                 hashtag="#MERN Stack Developer"
               >
@@ -51,7 +59,7 @@ const index = () => {
               </FacebookShareButton>
               {/*  */}
               <TwitterShareButton
-                // url={"https://twitter.com/home"}
+                url={"https://twitter.com/SquidSq93709257"}
                 quote={"FullStack Developer"}
                 hashtag="#MERN Stack Developer"
               >

@@ -6,6 +6,7 @@ import "./index.css";
 import navbutton from "../../btn.png";
 import logout from "../../logout.png";
 import triangle from "../../triangle.png";
+import Square from "../../square.png";
 // import { GiGiantSquid } from "react-icons/gi";
 
 function Nav() {
@@ -15,7 +16,8 @@ function Nav() {
         <ul className="navbar-nav">
           <li className="nav-item active nav-item">
             <Link className="logout" to="/orderHistory">
-              Order History
+              <img className="navbutton" src={Square} alt="logout-button" />
+              <span className="sss">Order History </span>
             </Link>
           </li>
           <li className="nav-item active nav-item">
@@ -50,12 +52,16 @@ function Nav() {
   }
 
   return (
-    <header className="navbar  navbar-expand-lg navbar-light bg-dark ">
+    <header className="navbar  navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <h1>
           <Link to="/">
             <span>
-              <img className="logo navbar-brand" src={logo} alt="" />
+              <img
+                className="logo navbar-brand"
+                src={logo}
+                alt="squid-store-logo"
+              />
             </span>
           </Link>
         </h1>
