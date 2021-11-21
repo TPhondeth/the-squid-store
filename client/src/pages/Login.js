@@ -83,7 +83,7 @@ function Login(props) {
               </form>
               <p>
               {" "}
-                If you do not have <span className="store-color">
+                If you have <span className="store-color">
                   Squid Store
                 </span>{" "}
                 account, Please <Link to="/Signup"> Signup </Link>
