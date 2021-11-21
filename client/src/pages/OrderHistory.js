@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import { useQuery } from '@apollo/client';
-import { QUERY_USER } from '../utils/queries';
+import { useQuery } from "@apollo/client";
+import { QUERY_USER } from "../utils/queries";
 
 function OrderHistory() {
   const { data } = useQuery(QUERY_USER);
@@ -19,7 +19,7 @@ function OrderHistory() {
 
         {user ? (
           <>
-            <h2>
+            <h2 className="text-white bg-dark text-center">
               Order History for {user.firstName} {user.lastName}
             </h2>
             {user.orders.map((order) => (
