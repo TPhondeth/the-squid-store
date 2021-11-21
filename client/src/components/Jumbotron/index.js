@@ -12,7 +12,6 @@ const index = () => {
       <div>
         <img className="hero-image" src={hero} alt="" />
       </div>
-      <h1 className="card-header">Select your Choice</h1>
     </>
   );
 };

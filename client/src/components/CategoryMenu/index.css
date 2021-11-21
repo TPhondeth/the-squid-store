@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,500;1,200&family=Press+Start+2P&family=Roboto:wght@100;300;400&display=swap");
+
+.charbutton {
+  color: #eb1877;
+  background: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  margin-left: 30px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.charbutton :hover {
+  background-color: yellow;
+}
+.char-text {
+  text-align: center;
+  height: 20vh;
+  margin-top: 300px;
+}
+.char-text > h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3.9rem;
+  margin-bottom: 30px;
+  color: #efefef;
+  letter-spacing: 3px;
+}
+.shoot {
+  width: 60px;
+  height: 60px;
+}

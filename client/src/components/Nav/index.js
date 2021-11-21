@@ -3,33 +3,45 @@ import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import logo from "../../logo.png";
 import "./index.css";
+import navbutton from "../../btn.png";
+import logout from "../../logout.png";
+import triangle from "../../triangle.png";
 // import { GiGiantSquid } from "react-icons/gi";
 
 function Nav() {
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
-        <ul className="flex-row ">
-          <li className="mx-1">
-            <Link to="/orderHistory">Order History</Link>
+        <ul className="navbar-nav">
+          <li className="nav-item active nav-item">
+            <Link className="logout" to="/orderHistory">
+              Order History
+            </Link>
           </li>
-          <li className="mx-1">
+          <li className="nav-item active nav-item">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-            <a href="/" onClick={() => Auth.logout()}>
-              Logout
+            <a className="logout" href="/" onClick={() => Auth.logout()}>
+              <img className="navbutton" src={logout} alt="logout-button" />
+              <span className="sss">Logout</span>
             </a>
           </li>
         </ul>
       );
     } else {
       return (
-        <div className="collapse navbar-collapse">
+        <div className="collapse navbar-collapse ">
           <ul className="navbar-nav">
             <li className=" nav-item active nav-item">
-              <Link to="/signup">Signup</Link>
+              <Link className="signup" to="/signup">
+                <img className="navbutton" src={navbutton} alt="" />
+                <span className="sss">Signup</span>
+              </Link>
             </li>
             <li className="nav-item nav-item active">
-              <Link to="/login">Login</Link>
+              <Link className="signup" to="/login">
+                <img className="navbutton" src={triangle} alt="" />
+                <span className="sss">Login</span>
+              </Link>
             </li>
           </ul>
         </div>
@@ -38,7 +50,7 @@ function Nav() {
   }
 
   return (
-    <header className="navbar  navbar-expand-lg navbar-light bg-dark">
+    <header className="navbar  navbar-expand-lg navbar-light bg-dark ">
       <div className="container">
         <h1>
           <Link to="/">
