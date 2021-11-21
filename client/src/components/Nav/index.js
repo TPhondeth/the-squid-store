@@ -50,12 +50,16 @@ function Nav() {
   }
 
   return (
-    <header className="navbar  navbar-expand-lg navbar-light bg-dark ">
+    <header className="navbar  navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <h1>
           <Link to="/">
             <span>
-              <img className="logo navbar-brand" src={logo} alt="" />
+              <img
+                className="logo navbar-brand"
+                src={logo}
+                alt="squid-store-logo"
+              />
             </span>
           </Link>
         </h1>

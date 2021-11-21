@@ -1,5 +1,11 @@
 .logo {
-  width: 250px;
+  width: 300px;
+  height: auto;
+}
+.logo:hover {
+  opacity: 80%;
+}
+.navbar {
 }
 .navbar-nav {
   text-decoration: none;

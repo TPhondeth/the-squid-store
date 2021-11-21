@@ -3,8 +3,12 @@
   color: white;
   padding: 3rem;
 
-  bottom: 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
   width: 100%;
+  height: 130px;
 }
 .footer a {
   text-decoration: none;
@@ -18,4 +22,11 @@
 }
 .footer p {
   margin-bottom: 0;
+}
+.ftr a {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.ftr a:hover {
+  color: #eb1877;
 }
