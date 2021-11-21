@@ -100,7 +100,13 @@ function Signup(props) {
                   </button>
                 </div>
               </form>
-              <p> If you have account, Please Login</p>
+              <p>
+                {" "}
+                If you have <span className="store-color">
+                  Squid Store
+                </span>{" "}
+                account, Please <Link to="/login"> Login </Link>
+              </p>
             </div>
           </div>
         </div>
