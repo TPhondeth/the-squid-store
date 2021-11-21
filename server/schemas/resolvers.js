@@ -3,8 +3,8 @@ const { User, Product, Category, Order } = require('../models');
 const { signToken } = require('../utils/auth');
 require('dotenv').config();
 
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
-
+const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
+const stripe = require('stripe')(stripeSecretKey);
 
 const resolvers = {
     Query: {
