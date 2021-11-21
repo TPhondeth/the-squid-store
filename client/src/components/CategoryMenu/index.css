@@ -9,6 +9,9 @@
   padding: 10px 15px;
   border-radius: 10px;
 }
+.charbutton :hover {
+  background-color: yellow;
+}
 .char-text {
   text-align: center;
   height: 20vh;
@@ -18,4 +21,8 @@
   font-family: "Poppins", sans-serif;
   font-size: 3rem;
   margin-bottom: 30px;
+}
+.shoot {
+  width: 60px;
+  height: 60px;
 }

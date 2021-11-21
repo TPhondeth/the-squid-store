@@ -8,6 +8,7 @@ import {
 import { QUERY_CATEGORIES } from "../../utils/queries";
 import { idbPromise } from "../../utils/helpers";
 import "./index.css";
+import shoot from "../../../src/shoot.png";
 
 function CategoryMenu() {
   const [state, dispatch] = useStoreContext();
@@ -37,7 +38,13 @@ function CategoryMenu() {
 
   return (
     <div className="char-text">
-      <h2>Choose your Character:</h2>
+      <h2>
+        CHOOSE Y
+        <span>
+          <img className="shoot" src={shoot} alt="shoot-image" />
+        </span>
+        UR CHARACTER
+      </h2>
       {categories.map((item) => (
         <button
           className="charbutton"
