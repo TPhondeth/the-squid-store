@@ -5,6 +5,7 @@ import logo from "../../logo.png";
 import "./index.css";
 import navbutton from "../../btn.png";
 import logout from "../../logout.png";
+import triangle from "../../triangle.png";
 // import { GiGiantSquid } from "react-icons/gi";
 
 function Nav() {
@@ -38,7 +39,8 @@ function Nav() {
             </li>
             <li className="nav-item nav-item active">
               <Link className="signup" to="/login">
-                Login
+                <img className="navbutton" src={triangle} alt="" />
+                <span className="sss">Login</span>
               </Link>
             </li>
           </ul>

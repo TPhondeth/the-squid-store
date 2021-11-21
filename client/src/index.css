@@ -3,6 +3,7 @@
 body {
   position: relative;
   font-family: "Poppins", sans-serif;
-  background-image: url(../src/plainbgm.png);
+  background-image: url(../src/bgm.png);
+
   background-position: center;
 }

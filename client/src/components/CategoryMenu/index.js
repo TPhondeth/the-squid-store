@@ -39,11 +39,7 @@ function CategoryMenu() {
   return (
     <div className="char-text">
       <h2>
-        CHOOSE Y
-        <span>
-          <img className="shoot" src={shoot} alt="shoot-image" />
-        </span>
-        UR CHARACTER
+        CHOOSE <br /> YOUR CHARACTER
       </h2>
       {categories.map((item) => (
         <button
