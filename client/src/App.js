@@ -1,8 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ApolloClient, ApolloProvider, InMemoryCache, createHttpLink } from '@apollo/client';
-import { setContext } from '@apollo/client/link/context';
-
+import {
+  ApolloClient,
+  ApolloProvider,
+  InMemoryCache,
+  createHttpLink,
+} from "@apollo/client";
+import { setContext } from "@apollo/client/link/context";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Hero from "./components/Jumbotron";
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
@@ -14,15 +20,15 @@ import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: "/graphql",
 });
 
 const authLink = setContext((_, { headers }) => {
-  const token = localStorage.getItem('id_token');
+  const token = localStorage.getItem("id_token");
   return {
     headers: {
       ...headers,
-      authorization: token ? `Bearer ${token}` : '',
+      authorization: token ? `Bearer ${token}` : "",
     },
   };
 });
@@ -39,8 +45,13 @@ function App() {
         <div>
           <StoreProvider>
             <Nav />
+            <Hero />
             <Switch>
+              {/* <Route exact path="/" component={Hero} /> */}
+
               <Route exact path="/" component={Home} />
+              <Route exact path="/" component={Hero} />
+
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/success" component={Success} />
@@ -52,7 +63,6 @@ function App() {
         </div>
       </Router>
     </ApolloProvider>
-
   );
 }
 
