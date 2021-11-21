@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,400;1,200&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
 .hero-image {
   background-size: cover;
   width: 100%;
@@ -11,3 +16,44 @@
     width: 50%;
   }
 } */
+
+/* card styling */
+h1 {
+  letter-spacing: 2px;
+}
+.squid-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 20px 20px;
+
+  /* max-width: 1200px; */
+}
+.squid {
+  background-color: #eee;
+  border-radius: 10px;
+}
+.squid-image-container {
+  /* border-radius: 50%; */
+  /* width: 120px;
+  height: 120px; */
+  text-align: center;
+}
+.squid-image-container img {
+  margin-top: 20px;
+}
+.squid .info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+.number {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.squid .info .name {
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
+}
