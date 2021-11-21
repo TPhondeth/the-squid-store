@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,500;1,200&family=Roboto:wght@100;300;400&display=swap");
+
+.charbutton {
+  color: black;
+  border: 5px solid black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  margin-left: 30px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.char-text {
+  text-align: center;
+  height: 20vh;
+  margin-top: 300px;
+}
+.char-text > h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
