@@ -20,6 +20,7 @@ import { StoreProvider } from "./utils/GlobalState";
 import OrderHistory from "./pages/OrderHistory";
 import Footer from "./components/Footer";
 import "./App.css";
+
 const httpLink = createHttpLink({
   uri: "/graphql",
 });
