@@ -1,0 +1,27 @@
+.btn-primary {
+    margin-left: 15px;
+}
+
+h2 {
+    color: #eb1877;
+    font-weight: bold;
+}
+
+p,
+h3 {
+    color: #ffffff;
+}
+
+.login,
+.signUp {
+    color: #eb1877;
+}
+
+h3 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.container {
+    padding-bottom: 10px;
+}

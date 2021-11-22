@@ -1,11 +1,29 @@
-/* body {
-  background-image: url(../../hero2.jpg);
-  background-position: center;
-} */
+.cardcss {
+  box-shadow: 0px 0px 0px rgb(0, 0, 0);
+  transition: box-shadow 0.6s ease-out;
+  box-shadow: 0.8px 0.9px 3px rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 30vh;
+  display: inline-block;
+}
 
-/* portfolio styling starts======== */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.cardcss img {
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+.addtocartbutton {
+  margin: 10px;
+}
+
+.cardcss:hover {
+  box-shadow: 1px 8px 20px rgb(0, 0, 0);
+  transition: box-shadow 0.6s ease-in;
+}
+
+.addtocartbutton:hover {
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
+  transition: box-shadow 0.6s ease-in;
 }
