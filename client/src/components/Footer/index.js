@@ -27,7 +27,7 @@ const index = () => {
               <p>storesquid866@gmail.com</p>
             </div>
           </div>
-          <div className="col-lg-3.col-md-2.col-sm-6 ftr">
+          {/* <div className="col-lg-3.col-md-2.col-sm-6 ftr">
             <div className="row">
               <div className="col">
                 <Link to="/">
@@ -47,7 +47,7 @@ const index = () => {
                 <a className="footer-nav">Contact</a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
@@ -77,7 +77,7 @@ const index = () => {
             </div>
             <div className="pt-3 text-center">
               Copright&copy;
-              {new Date().getFullYear()}&nbsp;Squid Store| All Rights Reserved
+              {new Date().getFullYear()}&nbsp;Squid Store | All Rights Reserved
             </div>
           </div>
         </div>

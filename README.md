@@ -1,4 +1,5 @@
 ## The Squid Store
+
 ## Table of Contents
 * [Description](#Description)
 * [User Story](#User_Story)
@@ -10,14 +11,17 @@
 * [Project_Screenshots](#Project_Screenshots)
 * [Credits](#Credits)
 * [License](#License)
+
 ## Description
-The Squid Store is an e-commerce virtual store front designed to sell costumes from the popular tv series Squid Game. The store is built using react app as the back end and GraphQL on the front end of development.
+The Squid Store is an e-commerce virtual store front designed to sell costumes from the popular TV series Squid Game. The store is built using a collaborative MERN stack single-page application, combining a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end, implementing user authentication with JWT to build a user-focused platform. 
+
 ## User_Story
-As a user  I can select which costumes I want. I am presented with webpage where I can create an account and also login. I can add products and delete products. I can checkout with a payment method.
+As a user  I can select which costumes I want. I am presented with webpage where I can create an account and also login. I can add products and delete products. I can checkout with Stripe's payment processing platform.
+
 ## Website Link
 
 ## GitHub Link
-https://github.com/TPhondeth/the-squid-store/tree/main
+https://github.com/TPhondeth/the-squid-store
 
 ## Project Screenshot
 ![squid-store](https://user-images.githubusercontent.com/57843842/142785005-3f0e707c-cb08-453a-88e9-3d825090bd79.png)
@@ -27,11 +31,14 @@ https://github.com/TPhondeth/the-squid-store/tree/main
 * HTML
 * CSS
 * JavaScript
-* NodeJs
+* React
+* Node.js
 * GraphQL API
-* Express
+* Express.js
+* JSON Web Token (JWT)
 * Apollo Server Express
 * Stripe
+* Mongoose ODM
 * MongoDB
 
 ## Credits: 
