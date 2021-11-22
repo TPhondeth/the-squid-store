@@ -81,7 +81,7 @@ function Login(props) {
                   </button>
                 </div>
               </form>
-              <p>
+              <p className="login">
               {" "}
                 If you don't have a <span className="store-color">
                   Squid Store
