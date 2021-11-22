@@ -13,10 +13,10 @@
 * [License](#License)
 
 ## Description
-The Squid Store is an e-commerce virtual store front designed to sell costumes from the popular tv series Squid Game. The store is built using react app as the back end and GraphQL on the front end of development.
+The Squid Store is an e-commerce virtual store front designed to sell costumes from the popular TV series Squid Game. The store is built using a collaborative MERN stack single-page application, combining a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end, implementing user authentication with JWT to build a user-focused platform. 
 
 ## User_Story
-As a user  I can select which costumes I want. I am presented with webpage where I can create an account and also login. I can add products and delete products. I can checkout with a payment method.
+As a user  I can select which costumes I want. I am presented with webpage where I can create an account and also login. I can add products and delete products. I can checkout with Stripe's payment processing platform.
 
 ## Website Link
 
