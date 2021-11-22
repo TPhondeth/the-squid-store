@@ -43,19 +43,19 @@ function Login(props) {
                     onSubmit={handleFormSubmit}
                     action=""
                     className="mt-5 border p-4"
-                 >
+              >
                     <div className="row">
                       <div className="mb-3 col-md-12">
     
               
                       <label htmlFor="email">Email address:</label>
                       <input
-                        placeholder="youremail@test.com"
-                         name="email"
-                         type="email"
-                         id="email"
-                         onChange={handleChange}
-                         className="form-control"
+                        placeholder="email@test.com"
+                        name="email"
+                        type="email"
+                        id="email"
+                        onChange={handleChange}
+                        className="form-control"
                       />
                   </div>
                 <div className="mb-3 col-md-6">
@@ -83,10 +83,10 @@ function Login(props) {
               </form>
               <p>
               {" "}
-                If you have <span className="store-color">
+                If you don't have a <span className="store-color">
                   Squid Store
                 </span>{" "}
-                account, Please <Link to="/Signup"> Signup </Link>
+                account, please <Link to="/Signup"> Signup </Link>
               </p>
             </div>
           </div>

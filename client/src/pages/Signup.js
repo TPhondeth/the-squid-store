@@ -71,7 +71,7 @@ function Signup(props) {
                   <div className="mb-3 col-md-12">
                     <label htmlFor="pwd"> Email</label>
                     <input
-                      placeholder="youremail@test.com"
+                      placeholder="email@test.com"
                       name="email"
                       type="email"
                       id="email"
