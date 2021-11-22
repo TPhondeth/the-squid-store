@@ -3,13 +3,13 @@
 .cart {
   background-image: url('../../green.jpg');
   background-size: contain;
+  z-index: 2;
   font-weight:900;
-  background-position: center;
   font-family: 'Poppins', sans-serif;
   color: rgb(255, 255, 255);
   /* text-shadow: 2px 2px #104845; */
-  text-shadow: 2px 2px 4px #ca41bf;
-  position: fixed;
+  text-shadow: 2px 2px 4px #EB1777;
+  position: absolute;
   top: 0;
   right: 0;
   min-width: 20%;
@@ -23,10 +23,11 @@
 }
 
 .cart h2 {
+  text-align: center;
   background-color: #343A40;
-  background-size: 300px 40px;
+  background-clip: border-box;
   font-size: 1.5rem;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Poppins', sans-serif;
   border-bottom: 1px solid var(--dark);
   padding-bottom: 0.5rem;
   margin: 1rem 0;
@@ -34,6 +35,7 @@
 
 .cart .close {
   position: absolute;
+  font-size: small;
   top: 0.5rem;
   right: 0.5rem;
   cursor: pointer;
@@ -71,6 +73,15 @@
   width: 50px;
   padding: 0;
   margin: 0 0.5rem 1rem 0;
+}
+
+.cartTotal {
+  font-size: 20px;
+  background-color: #343A40;
+  background-clip: border-box;
+  text-align: center;
+  border-color: #EB1777;
+  border: solid;
 }
 
 @media screen and (max-width: 768px) {
