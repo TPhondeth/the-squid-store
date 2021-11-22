@@ -1,0 +1,31 @@
+.footer {
+  background: #343a40;
+  color: white;
+  padding: 3rem;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 130px;
+  
+ }
+.footer a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-yellow);
+  cursor: pointer;
+}
+.footer p {
+  margin-bottom: 0;
+}
+.ftr a {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.ftr a:hover {
+  color: #eb1877;
+}

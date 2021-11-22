@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,500;1,200&family=Press+Start+2P&family=Roboto:wght@100;300;400&display=swap");
+
+.cart {
+  background-image: url('../../green.jpg');
+  background-size: contain;
+  font-weight:900;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 2px 2px #104845; */
+  text-shadow: 2px 2px 4px #ca41bf;
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 20%;
+  max-width: 30%;
+  max-height: 60%;
+  background-color: var(--light);
+  overflow: auto;
+  padding: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 0.5rem;
+}
+
+.cart h2 {
+  background-color: #343A40;
+  background-size: 300px 40px;
+  font-size: 1.5rem;
+  font-family: 'Overpass', sans-serif;
+  border-bottom: 1px solid var(--dark);
+  padding-bottom: 0.5rem;
+  margin: 1rem 0;
+}
+
+.cart .close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+  color: var(--tertiary);
+}
+
+.cart .close:hover {
+  text-decoration: underline;
+}
+
+.cart-closed {
+  position: fixed;
+  top: 3%;
+  right: 2%;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #eb1877;
+  border-radius: 20%;
+  padding-left: 6px;
+  
+  
+  
+  
+
+  width: 45px;
+  height: 58px;
+  color: white;
+}
+
+.cart-closed:hover {
+  transform: rotate(8deg);
+}
+
+.cart img {
+  width: 100px;
+  margin-right: 5rem;
+}
+
+.cart input {
+  width: 50px;
+  padding: 0;
+  margin: 0 0.5rem 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    box-shadow: none;
+    background-color: inherit;
+  }
+
+  .cart-closed {
+    position: relative;
+    margin: 0 auto;
+  }
+}
