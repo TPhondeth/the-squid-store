@@ -50,7 +50,7 @@ function Login(props) {
               
                       <label htmlFor="email">Email address:</label>
                       <input
-                        placeholder="email@test.com"
+                        placeholder="email@mail.com"
                         name="email"
                         type="email"
                         id="email"
@@ -86,7 +86,7 @@ function Login(props) {
                 If you don't have a <span className="store-color">
                   Squid Store
                 </span>{" "}
-                account, please <Link to="/Signup"> Signup </Link>
+                account, please <Link to="/Signup"> SignUp </Link>
               </p>
             </div>
           </div>

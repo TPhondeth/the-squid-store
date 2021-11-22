@@ -36,7 +36,7 @@ function Nav() {
             <li className=" nav-item active nav-item">
               <Link className="signup" to="/signup">
                 <img className="navbutton" src={navbutton} alt="" />
-                <span className="sss">Signup</span>
+                <span className="sss">SignUp</span>
               </Link>
             </li>
             <li className="nav-item nav-item active">
