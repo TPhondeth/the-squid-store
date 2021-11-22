@@ -46,6 +46,7 @@ function ProductList() {
   return (
     <div className="my-2 container">
       <h2>SQUID GAME Products:</h2>
+
       {state.products.length ? (
         <div className="flex-row">
           {filterProducts().map((product) => (

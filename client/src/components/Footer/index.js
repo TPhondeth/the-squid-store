@@ -20,15 +20,15 @@ const index = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Team Squid Squad</p>
+              {/* <p>Team Squid Squad</p>
             </div>
 
             <div className="d-flex">
-              <p>storesquid866@gmail.com</p>
+              <p>storesquid866@gmail.com</p> */}
             </div>
           </div>
           <div className="col-lg-3.col-md-2.col-sm-6 ftr">
-            <div className="row">
+            {/* <div className="row">
               <div className="col">
                 <Link to="/">
                   <a className="footer-nav">Home</a>
@@ -46,7 +46,7 @@ const index = () => {
                 <br />
                 <a className="footer-nav">Contact</a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">

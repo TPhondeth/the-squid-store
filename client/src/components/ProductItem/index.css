@@ -2,3 +2,10 @@
   background-image: url(../../hero2.jpg);
   background-position: center;
 } */
+
+/* portfolio styling starts======== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
