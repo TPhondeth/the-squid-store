@@ -69,7 +69,7 @@ const Cart = () => {
   }
 
   return (
-    <div className="cart fixed-top">
+    <div className="cart">
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
@@ -80,12 +80,12 @@ const Cart = () => {
             <CartItem key={item._id} item={item} />
           ))}
 
-          <div className="flex-row space-between">
+          <div className="cartTotal">
             <strong>Total: ${calculateTotal()}</strong>
             {Auth.loggedIn() ? (
               <button onClick={submitCheckout}>Checkout</button>
             ) : (
-              <span>(log in to check out)</span>
+              <span>(Log in to check out)</span>
             )}
           </div>
         </div>
