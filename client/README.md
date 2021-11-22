@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## The Squid Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* [Description](#Description)
+* [User Story](#User_Story)
+* [Acceptance_Criteria](#Acceptance_Criteria)
+* [Website Link](#Website)
+* [GitHub Link](#GitHub)
+* [Technologies Used](#Technologies_Used)
+* [Markup](#Markup)
+* [Project_Screenshots](#Project_Screenshots)
+* [Credits](#Credits)
+* [License](#License)
 
-## Available Scripts
+## Description
+The Squid Store is an e-commerce virtual store front designed to sell costumes from the popular tv series Squid Game. The store is built using react app as the back end and GraphQL on the front end of development.
 
-In the project directory, you can run:
+## User_Story
+As a user  I can select which costumes I want. I am presented with webpage where I can create an account and also login. I can add products and delete products. I can checkout with a payment method.
 
-### `npm start`
+## Website Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## GitHub Link
+https://github.com/TPhondeth/the-squid-store
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Project Screenshot
+![squid-store](https://user-images.githubusercontent.com/57843842/142785005-3f0e707c-cb08-453a-88e9-3d825090bd79.png)
+## Markup
 
-### `npm test`
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* React
+* Node.js
+* GraphQL API
+* Express.js
+* JSON Web Token (JWT)
+* Apollo Server Express
+* Stripe
+* Mongoose ODM
+* MongoDB
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits: 
+*  Amal Lohith
+*  Colin Nebula
+*  Mehtab Locham
+*  Neil Hall
+*  Tony Phondeth
 
-### `npm run build`
+## Acceptance_Criteria
+Application uses React for the front end.
+Application has a GraphQL API with a Node.js and Express.js server and uses queries and mutations for retrieving, adding, updating, and deleting data.
+Application uses MongoDB and the Mongoose ODM for the database and protects sensitive API key information on the server.
+Application includes user authentication using JWT.
+## Licensing:
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](https://shields.io)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ----
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
