@@ -6,15 +6,13 @@ import {
   TwitterIcon,
   TwitterShareButton,
   LinkedinIcon,
-  LinkedinShareButton,
-  RedditIcon,
-  RedditShareButton
+  LinkedinShareButton
 } from "react-share";
 
 const index = () => {
   return (
     <div className="footer ">
-          <div className="pt-3 text-center">
+          
             <FacebookShareButton
                 url={"https://www.facebook.com/profile.php?id=100075389520028"}
                 quote={"FullStack Developer"}
@@ -39,14 +37,10 @@ const index = () => {
               <LinkedinIcon className="mx-3" size={36} />
             </LinkedinShareButton>
 
-            <RedditShareButton
-                url={"https://www.reddit.com/"}
-                quote={"FullStack Developer"}
-                hashtag="#MERN Stack Developer"
-              >
-              <RedditIcon className="mx-3" size={36} />
-            </RedditShareButton>
-          </div>
+              <div className="copyright">
+                &copy;
+                {new Date().getFullYear()}&nbsp;Squid Squad | SQUID STORE
+              </div>
     </div>
   );
 };
