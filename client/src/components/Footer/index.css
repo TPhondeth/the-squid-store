@@ -30,10 +30,3 @@
 .ftr a:hover {
   color: #eb1877;
 }
-
-.copyright {
-  display: flex;
-  align-items: center;
-  padding-left: 475px;
-  padding-top: 15px;
-}
