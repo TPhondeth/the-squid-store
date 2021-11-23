@@ -45,7 +45,7 @@ function ProductList() {
   }
 
   return (
-    <div className="my-2 container" id="homepagemaincard">
+    <div className="card my-2 container" id="homepagemaincard">
       {state.products.length ? (
         <div>
           {filterProducts().map((product) => (
