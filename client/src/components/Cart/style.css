@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,500;1,200&family=Press+Start+2P&family=Roboto:wght@100;300;400&display=swap");
 
 .cart {
-  background-image: url('../../green.jpg');
+  background-image: url("../../green.jpg");
   background-size: contain;
-  z-index: 2;
-  font-weight:900;
-  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
   color: rgb(255, 255, 255);
   /* text-shadow: 2px 2px #104845; */
-  text-shadow: 2px 2px 4px #EB1777;
-  position: absolute;
+  text-shadow: 2px 2px 4px #ca41bf;
+  position: fixed;
   top: 0;
   right: 0;
   min-width: 20%;
@@ -23,11 +23,10 @@
 }
 
 .cart h2 {
-  text-align: center;
-  background-color: #343A40;
-  background-clip: border-box;
+  background-color: #343a40;
+  background-size: 300px 40px;
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Overpass", sans-serif;
   border-bottom: 1px solid var(--dark);
   padding-bottom: 0.5rem;
   margin: 1rem 0;
@@ -77,10 +76,10 @@
 
 .cartTotal {
   font-size: 20px;
-  background-color: #343A40;
+  background-color: #343a40;
   background-clip: border-box;
   text-align: center;
-  border-color: #EB1777;
+  border-color: #eb1777;
   border: solid;
 }
 
