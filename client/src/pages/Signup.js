@@ -45,7 +45,7 @@ function Signup(props) {
                 className="mt-5 border p-4"
               >
                 <div className="row">
-                  <div className="mb-3 col-md-6">
+                  <div className="mb-3 col-md-12">
                     <label htmlFor="firstName"> FirstName</label>
                     <input
                       placeholder="First"
