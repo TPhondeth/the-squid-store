@@ -17,8 +17,8 @@
 .char-text {
   text-align: center;
   height: 20vh;
-  margin-top: 300px;
-  margin-bottom: 150px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .char-text > h2 {
   font-family: "Press Start 2P", cursive;

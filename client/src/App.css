@@ -5,6 +5,7 @@
 h2 {
     color: #eb1877;
     font-weight: bold;
+    padding-bottom: -25px;
 }
 
 p,
@@ -27,6 +28,10 @@ h3 {
 }
 
 .image-detail {
-    height: 325px;
-    width: 325px;
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    padding-bottom: 60px;
 }

@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
+import Carousel from "../components/Carousel";
 import Cart from "../components/Cart";
-import Jumbotron from "../components/Jumbotron";
 
 const Home = () => {
   return (
     <div className="container">
       {/* <Jumbotron /> */}
+      <Carousel />
       <CategoryMenu />
       <ProductList />
       <Cart />

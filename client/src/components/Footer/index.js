@@ -7,9 +7,6 @@ import {
   TwitterShareButton,
   LinkedinIcon,
   LinkedinShareButton,
-  LineShareButton,
-  WhatsappShareButton,
-  WhatsappIcon,
 } from "react-share";
 import { Link } from "react-router-dom";
 

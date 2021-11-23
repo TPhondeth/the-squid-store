@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useMutation } from '@apollo/client';
-import Jumbotron from "../components/Jumbotron";
 import { ADD_ORDER } from "../utils/mutations";
 import { idbPromise } from "../utils/helpers";
 
@@ -32,9 +31,9 @@ function Success() {
     return (
         <div>
         {/* <Jumbotron> */}
-            <h3>Thank you for your order!</h3>
+            <h3>THANK YOU!</h3>
             <h3>
-                The details will be sent to your email!
+                Your order will be shipped within the next 48hrs!
             </h3>
             <h3>
                 You are now being redirected to the home page!

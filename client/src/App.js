@@ -8,7 +8,6 @@ import {
 } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Hero from "./components/Jumbotron";
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
