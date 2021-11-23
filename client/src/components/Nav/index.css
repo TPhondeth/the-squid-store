@@ -5,8 +5,12 @@
 .logo:hover {
   opacity: 80%;
 }
-.navbar {
+
+.navbar .container {
+  margin-bottom: -40px;
+  margin-top: -25px;
 }
+
 .navbar-nav {
   text-decoration: none;
   list-style: none;

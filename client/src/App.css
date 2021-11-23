@@ -23,15 +23,12 @@ h3 {
     text-align: center;
 }
 
-.container {
-    padding-bottom: 10px;
-}
-
 .image-detail {
     height: 300px;
     width: 300px;
 }
 
 .container {
-    padding-bottom: 110px;
+    margin: 0 auto;
+    
 }
