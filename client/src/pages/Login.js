@@ -58,7 +58,7 @@ function Login(props) {
                         className="form-control"
                       />
                   </div>
-                <div className="mb-3 col-md-6">
+                <div className="mb-3 col-md-12">
           <label htmlFor="pwd">Password:</label>
           <input
             placeholder="******"
