@@ -20,11 +20,11 @@ const index = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Team Squid Squad</p>
+              {/* <p>Team Squid Squad</p>
             </div>
 
             <div className="d-flex">
-              <p>storesquid866@gmail.com</p>
+              <p>storesquid866@gmail.com</p> */}
             </div>
           </div>
           {/* <div className="col-lg-3.col-md-2.col-sm-6 ftr">

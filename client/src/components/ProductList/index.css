@@ -1,7 +1,7 @@
 #homepagemaincard {
-    padding: 8vh;
+    padding: 5rem;
     background-color: rgba(205, 241, 241, 0.7);
-    width: 119vh;    
+    width: 400rem;   
 }
 
 .itemcontainer {
