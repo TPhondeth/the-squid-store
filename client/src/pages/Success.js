@@ -32,13 +32,13 @@ function Success() {
     return (
         <div>
         {/* <Jumbotron> */}
-            <h3>Thank you for your order!</h3>
-            <h3>
-                The details will be sent to your email!
-            </h3>
-            <h3>
+            <h1>Success!</h1>
+            <h2>
+                Thank you for your order! The details will be sent to your email!
+            </h2>
+            <h2>
                 You are now being redirected to the home page!
-            </h3>
+            </h2>
         {/* </Jumbotron> */}
         </div>
     );

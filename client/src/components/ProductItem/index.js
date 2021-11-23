@@ -42,11 +42,11 @@ function ProductItem(item) {
       <div>
         <div>
           {quantity} {pluralize("item", quantity)} in stock
+            
         </div>
+        <span>${price}</span>
       </div>
-      <button className="addtocartbutton" onClick={addToCart}>
-        Add to cart
-      </button>
+      <button className = "addtocartbutton" onClick={addToCart}>Add to cart</button>
     </div>
   );
 }

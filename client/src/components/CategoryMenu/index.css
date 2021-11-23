@@ -9,14 +9,18 @@
   padding: 10px 15px;
   border-radius: 10px;
   font-weight: bold;
+
 }
-.charbutton :hover {
-  background-color: yellow;
+.charbutton:hover {
+  box-shadow: 1px 8px 20px rgb(0, 0, 0);
+  transition:  box-shadow .6s ease-in;
+  opacity: 0.95;
 }
 .char-text {
   text-align: center;
   height: 20vh;
-  margin-top: 300px;
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 .char-text > h2 {
   font-family: "Press Start 2P", cursive;

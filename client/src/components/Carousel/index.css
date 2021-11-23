@@ -1,0 +1,12 @@
+.Carousel{
+
+    margin-top: 50px;
+}
+
+
+.Carousel img {
+
+    width:  auto;
+    height: 560px ;
+    background-size: cover;
+}

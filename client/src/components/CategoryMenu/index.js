@@ -37,6 +37,10 @@ function CategoryMenu() {
   };
 
   return (
+
+
+    
+
     <div className="char-text">
       <h2>
         CHOOSE <br /> YOUR CHARACTER

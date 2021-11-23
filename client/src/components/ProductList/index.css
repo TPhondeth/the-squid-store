@@ -1,9 +1,13 @@
-#homepagemaincard {
-    padding: 8vh;
-    background-color: rgba(205, 241, 241, 0.7);
-    width: 119vh;    
+#homepagemaincard{
+
+   padding: 5rem;
+   background-color: rgba(102, 116, 116, 0.7);
+   width: 400rem;
+  
 }
 
-.itemcontainer {
-    width: max-content
+.itemcontainer{
+  width: max-content
+    
+
 }   

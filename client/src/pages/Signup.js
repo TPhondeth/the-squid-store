@@ -37,7 +37,7 @@ function Signup(props) {
       <div className="container">
         <div className="row">
           <div className="col-md-5  offset-md-3 bg-light shadow">
-            <h2 className="text-center">SignUp</h2>
+            <h2 className="text-center">Signup</h2>
             <div className="signup-form">
               <form
                 onSubmit={handleFormSubmit}
@@ -71,7 +71,7 @@ function Signup(props) {
                   <div className="mb-3 col-md-12">
                     <label htmlFor="pwd"> Email</label>
                     <input
-                      placeholder="email@mail.com"
+                      placeholder="youremail@test.com"
                       name="email"
                       type="email"
                       id="email"
@@ -100,7 +100,7 @@ function Signup(props) {
                   </button>
                 </div>
               </form>
-              <p className="signUp">
+              <p>
                 {" "}
                 If you have <span className="store-color">
                   Squid Store
