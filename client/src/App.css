@@ -25,3 +25,8 @@ h3 {
 .container {
     padding-bottom: 10px;
 }
+
+.image-detail {
+    height: 325px;
+    width: 325px;
+}
