@@ -30,5 +30,9 @@ h3 {
 
 .container {
     margin: 0 auto;
-    
+}
+
+button {
+    border-radius: 5px;
+    background: #bfd7ea;
 }

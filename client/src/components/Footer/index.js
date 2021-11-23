@@ -36,11 +36,7 @@ const index = () => {
               >
               <LinkedinIcon className="mx-3" size={36} />
             </LinkedinShareButton>
-
-              <div className="copyright">
-                &copy;
-                {new Date().getFullYear()}&nbsp;Squid Squad | SQUID STORE
-              </div>
+            
     </div>
   );
 };
