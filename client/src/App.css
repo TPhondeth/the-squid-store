@@ -19,7 +19,7 @@ h3 {
 }
 
 h3 {
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ button {
 
     .cart-closed {
         top: 4.5%;
-        right: 2%;
+        right: 10%;
         font-size: 1.5rem;
         padding-left: .5rem;
         width: 40px;
@@ -101,8 +101,13 @@ button {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+    
     .Carousel img {
         width:  auto;
         height: 360px ;
+    }
+
+    .card {
+        width: 100%;
     }
 }

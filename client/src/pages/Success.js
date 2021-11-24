@@ -30,15 +30,10 @@ function Success() {
 
     return (
         <div>
-        {/* <Jumbotron> */}
             <h3>THANK YOU!</h3>
             <h3>
-                Your order will be shipped within the next 48hrs!
+                Your costumes will arrive within 3 business days!
             </h3>
-            <h3>
-                You are now being redirected to the home page!
-            </h3>
-        {/* </Jumbotron> */}
         </div>
     );
 };
