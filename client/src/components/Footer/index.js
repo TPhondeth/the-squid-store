@@ -12,7 +12,7 @@ import {
 const index = () => {
   return (
     <div className="footer ">
-          
+          <div>
             <FacebookShareButton
                 url={"https://www.facebook.com/profile.php?id=100075389520028"}
                 quote={"FullStack Developer"}
@@ -36,7 +36,11 @@ const index = () => {
               >
               <LinkedinIcon className="mx-3" size={36} />
             </LinkedinShareButton>
-            
+            </div>
+            <div>
+              Copyright&copy;
+              {new Date().getFullYear()}&nbsp;The Squid Store
+            </div>
     </div>
   );
 };

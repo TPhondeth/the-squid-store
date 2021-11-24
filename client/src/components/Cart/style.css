@@ -47,15 +47,16 @@
 
 .cart-closed {
   position: fixed;
-  top: 4.5%;
-  right: 4%;
-  font-size: 2rem;
+  top: 6%;
+  right: 4.5%;
+  font-size: 1.7rem;
   cursor: pointer;
-  background-color: #eb1877;
-  padding-left: .8rem;
-  width: 60px;
-  height: 60px;
+  background-color: #eb1877;  
+  padding-left: .55rem;
+  width: 45px;
+  height: 45px;
   color: white;
+
 }
 
 .cart-closed:hover {
