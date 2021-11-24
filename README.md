@@ -48,6 +48,7 @@ https://github.com/TPhondeth/the-squid-store
 *  Mehtab Locham
 *  Neil Hall
 *  Tony Phondeth
+*  Adi Wee
 
 ## Acceptance_Criteria
 Application uses React for the front end.
