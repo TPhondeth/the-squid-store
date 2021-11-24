@@ -37,7 +37,7 @@ const index = () => {
               <LinkedinIcon className="mx-3" size={36} />
             </LinkedinShareButton>
             </div>
-            <div>
+            <div className="copyright">
               Copyright&copy;
               {new Date().getFullYear()}&nbsp;The Squid Store
             </div>
