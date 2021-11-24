@@ -15,19 +15,19 @@ function Rotation() {
         <div className="Carousel">
         <Carousel showThumbs={false}>
         <div>
-            <img src={a1} />
+            <img src={a1} alt="Squid game characters"/>
         </div>
         <div>
-            <img src={a2} />
+            <img src={a2} alt="Triangle guard"/>
         </div>
         <div>
-            <img src={a3} />
+            <img src={a3} alt="Guards on stage"/>
         </div>
         <div>
-            <img src={a4} />
+            <img src={a4} alt="Looking over his shoulder"/>
         </div>
         <div>
-            <img src={a5} />
+            <img src={a5} alt="The showdown"/>
         </div>
     </Carousel>
     </div>

@@ -36,3 +36,73 @@ button {
     border-radius: 5px;
     background: #bfd7ea;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+	.Carousel img {
+        width:  auto;
+        height: 460px ;
+    }
+
+    .cart-closed {
+        top: 4.5%;
+        right: 2%;
+        font-size: 1.5rem;
+        padding-left: .5rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .cart .close {
+        font-size: .7rem;
+    }
+
+    .cart h2,
+    .cartTotal {
+        font-size: 1rem;
+    }
+
+    .cart input {
+        width: 25px;
+    }
+
+    .signUp,
+    .login {
+        font-size: 15px;
+    }
+
+    navbutton {
+        width: 25px;
+        height: 25px;
+    }
+
+    .char-text > h2 {
+        font-size: 1.9rem;
+    }
+
+    .charbutton {
+        font-size: 1rem;
+    }
+
+    .cardcss {
+        margin: .7rem;
+        width: 10rem;
+    }
+
+    .cardcss img {
+        margin: .5rem;
+    }
+
+    .addtocartbutton {
+        margin: .5rem;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .Carousel img {
+        width:  auto;
+        height: 360px ;
+    }
+}
