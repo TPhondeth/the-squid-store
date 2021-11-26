@@ -4,9 +4,7 @@ const { signToken } = require('../utils/auth');
 require('dotenv').config();
 
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
-const stripe = require('stripe')(stripeSecretKey, {
-    maxNetworkRetries: 2,
-});
+const stripe = require('stripe')(stripeSecretKey);
 
 const resolvers = {
     Query: {
